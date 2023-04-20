@@ -1,0 +1,54 @@
+.right-container {
+    height: 100vh;
+    width: 30vw;
+    padding: 20px 0 20px 20px; 
+    backdrop-filter: blur(50px);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.input {
+    border: none;
+    border-bottom: 2px solid green;
+    background-color: transparent;
+    outline: none;
+    font-size: medium;
+    color: #07d2e5;
+    padding: 0;
+    width: 70%;
+    height: 36px;
+}
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.search-icon:hover {
+    color:rgb(22, 188, 171);
+    cursor: pointer;
+}
+.cities {
+    line-height: 2;
+    padding-top: 10px;
+    color: #ffffff95;
+}
+.cities > p {
+    cursor: pointer;
+}
+.cities > p:hover {
+    color: azure;
+}
+.weather-details > div {
+    display: flex;
+    justify-content: space-between;
+}
+.properties {
+    color: cadetblue;
+}
+.prop-value {
+    color: whitesmoke;
+    margin-right: 30px;
+}

@@ -1,0 +1,46 @@
+.left-container {
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    position: relative;
+}
+
+.haze {
+    background-color: rgba(128, 128, 128,0.9);
+    width: 170px;
+    height: 170px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.temp-details {
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 500px;
+    height: 200px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.temp-details > p {
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 600;
+}
+.city-time {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    line-height: 0;
+    margin-bottom: 30px;
+}
