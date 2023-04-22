@@ -7,7 +7,6 @@ const Leftcomponent = ({ Data }) => {
   return (
     <div className="left-container">
       <div className="haze">
-        {/* <p>{Data.icon}</p> */}
         <img
           id="wicon"
           src={`https://openweathermap.org/img/wn/${Data?.weather[0].icon}@2x.png`}
